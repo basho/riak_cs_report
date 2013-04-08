@@ -30,7 +30,7 @@
          get_usage/4
         ]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -ifdef(TEST).
 -ifdef(EQC).
 -compile([export_all]).

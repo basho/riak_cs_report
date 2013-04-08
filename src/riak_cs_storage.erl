@@ -22,7 +22,7 @@
 
 -module(riak_cs_storage).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 -export([
          sum_user/2,

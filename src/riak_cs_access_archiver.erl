@@ -45,7 +45,7 @@
          terminate/3,
          code_change/4]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 -define(SERVER, ?MODULE).
 -define(DEFAULT_MAX_BACKLOG, 2). % 2 ~= forced and next

@@ -127,7 +127,7 @@
 
 -include_lib("webmachine/include/webmachine.hrl").
 -include("rts.hrl").
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 %% Keys used in output - defined here to help keep JSON and XML output
 %% as similar as possible.
